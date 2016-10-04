@@ -1,0 +1,10 @@
+# Compiled Object files
+*.obj
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Executables
+*.exe
