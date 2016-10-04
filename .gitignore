@@ -8,3 +8,5 @@
 
 # Executables
 *.exe
+
+*.suo

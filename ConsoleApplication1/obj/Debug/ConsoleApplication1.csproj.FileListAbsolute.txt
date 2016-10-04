@@ -1,0 +1,6 @@
+C:\Projects\Study\Razor\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+C:\Projects\Study\Razor\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Projects\Study\Razor\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Projects\Study\Razor\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\Projects\Study\Razor\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+C:\Projects\Study\Razor\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache

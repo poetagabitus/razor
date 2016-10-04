@@ -1,0 +1,5 @@
+C:\Projects\Study\Razor\ConsoleApplication1\bin\Release\ConsoleApplication1.exe.config
+C:\Projects\Study\Razor\ConsoleApplication1\bin\Release\ConsoleApplication1.exe
+C:\Projects\Study\Razor\ConsoleApplication1\bin\Release\ConsoleApplication1.pdb
+C:\Projects\Study\Razor\ConsoleApplication1\obj\Release\ConsoleApplication1.exe
+C:\Projects\Study\Razor\ConsoleApplication1\obj\Release\ConsoleApplication1.pdb
