@@ -3,38 +3,41 @@ using System.Collections.Generic;
 using System.Web.Mvc;
 using Ninject;
 using Razor.Domain;
+using Razor.Infrastructure.Abstract;
+using Razor.Infrastructure.Concrete;
 
 namespace Razor.Infrastructure
 {
     public class DependencyResolver : IDependencyResolver
     {
-        private readonly IKernel kernel;
+        private readonly IKernel _kernel;
 
         public DependencyResolver(IKernel kernel)
         {
-            this.kernel = kernel;
+            _kernel = kernel;
             AddBindings();
         }
 
         private void AddBindings()
         {
-            kernel.Bind<IProductRepository>().To<ProductRepository>().InSingletonScope();
-            kernel.Bind<IOrderProcessor>().To<OrderProcessor>().InSingletonScope();
+            _kernel.Bind<IProductRepository>().To<ProductRepository>().InSingletonScope();
+            _kernel.Bind<IOrderProcessor>().To<OrderProcessor>().InSingletonScope();
+            _kernel.Bind<IAuthProvider>().To<FormsAuthProvider>().InSingletonScope();
         }
 
         public object GetService(Type serviceType)
         {
-            return kernel.TryGet(serviceType);
+            return _kernel.TryGet(serviceType);
         }
 
         public IEnumerable<object> GetServices(Type serviceType)
         {
-            return kernel.GetAll(serviceType);
+            return _kernel.GetAll(serviceType);
         }
 
         public void Dispose()
         {
-            kernel.Dispose();
+            _kernel.Dispose();
         }
     }
 }

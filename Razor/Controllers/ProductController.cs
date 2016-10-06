@@ -23,7 +23,7 @@ namespace Razor.Controllers
             {
                 Products = productRepository.Products
                     .Where(x => x.Category.Equals(category, StringComparison.CurrentCultureIgnoreCase) || category == null)
-                    .OrderBy(p => p.ProductId)
+                    .OrderBy(p => p.ProductID)
                     .Skip((page - 1)*PageSize)
                     .Take(PageSize),
 

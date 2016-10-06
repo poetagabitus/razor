@@ -9,7 +9,7 @@
     @using (Html.BeginForm("AddToCart", "Cart"))
     {
         <div class="pull-right">
-            @Html.HiddenFor(x => x.ProductId)
+            @Html.HiddenFor(x => x.ProductID)
             @if (Request.Url != null)
             {
                 @Html.Hidden("returnUrl", Request.Url.PathAndQuery)

@@ -6,16 +6,16 @@ namespace Razor.Domain
 {
     public class Cart
     {
-        private readonly List<CartLine> lineCollection = new List<CartLine>();
+        private readonly List<CartLine> _lineCollection = new List<CartLine>();
 
         public void AddItem(Product product, int quantity)
         {
-            var line = lineCollection
-                .FirstOrDefault(p => p.Product.ProductId == product.ProductId);
+            var line = _lineCollection
+                .FirstOrDefault(p => p.Product.ProductID == product.ProductID);
 
             if (line == null)
             {
-                lineCollection.Add(new CartLine
+                _lineCollection.Add(new CartLine
                 {
                     Product = product,
                     Quantity = quantity
@@ -29,22 +29,19 @@ namespace Razor.Domain
 
         public void RemoveLine(Product product)
         {
-            lineCollection.RemoveAll(l => l.Product.ProductId == product.ProductId);
+            _lineCollection.RemoveAll(l => l.Product.ProductID == product.ProductID);
         }
 
         public decimal ComputeTotalValue()
         {
-            return lineCollection.Sum(e => e.Product.Price*e.Quantity);
+            return _lineCollection.Sum(e => e.Product.Price*e.Quantity);
         }
 
         public void Clear()
         {
-            lineCollection.Clear();
+            _lineCollection.Clear();
         }
 
-        public IEnumerable<CartLine> Lines
-        {
-            get { return lineCollection; }
-        }
+        public IEnumerable<CartLine> Lines => _lineCollection;
     }
 }

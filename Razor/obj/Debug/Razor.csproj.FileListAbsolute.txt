@@ -30,3 +30,44 @@ C:\Projects\Study\Razor\Razor\bin\EntityFramework.SqlServer.xml
 C:\Projects\Study\Razor\Razor\bin\Ninject.xml
 C:\Projects\Study\Razor\Razor\bin\Ninject.Web.Common.xml
 C:\Projects\Study\Razor\Razor\bin\Ninject.Web.Mvc.xml
+F:\Development\Изучаю ASP .Net MVC\razor\Razor\obj\Debug\Razor.csprojResolveAssemblyReference.cache
+F:\Development\Изучаю ASP .Net MVC\razor\Razor\obj\Debug\Razor.pdb
+F:\Development\Изучаю ASP .Net MVC\razor\Razor\obj\Debug\Razor.csproj.App.config
+F:\Development\Изучаю ASP .Net MVC\razor\Razor\bin\Razor.dll.config
+F:\Development\Изучаю ASP .Net MVC\razor\Razor\bin\Razor.dll
+F:\Development\Изучаю ASP .Net MVC\razor\Razor\bin\Razor.pdb
+F:\Development\Изучаю ASP .Net MVC\razor\Razor\bin\EntityFramework.dll
+F:\Development\Изучаю ASP .Net MVC\razor\Razor\bin\EntityFramework.SqlServer.dll
+F:\Development\Изучаю ASP .Net MVC\razor\Razor\bin\Newtonsoft.Json.dll
+F:\Development\Изучаю ASP .Net MVC\razor\Razor\bin\Ninject.dll
+F:\Development\Изучаю ASP .Net MVC\razor\Razor\bin\Ninject.Web.Common.dll
+F:\Development\Изучаю ASP .Net MVC\razor\Razor\bin\System.Net.Http.Extensions.dll
+F:\Development\Изучаю ASP .Net MVC\razor\Razor\bin\System.Net.Http.Formatting.dll
+F:\Development\Изучаю ASP .Net MVC\razor\Razor\bin\System.Net.Http.Primitives.dll
+F:\Development\Изучаю ASP .Net MVC\razor\Razor\bin\System.Web.Helpers.dll
+F:\Development\Изучаю ASP .Net MVC\razor\Razor\bin\System.Web.Http.dll
+F:\Development\Изучаю ASP .Net MVC\razor\Razor\bin\System.Web.Http.WebHost.dll
+F:\Development\Изучаю ASP .Net MVC\razor\Razor\bin\System.Web.Mvc.dll
+F:\Development\Изучаю ASP .Net MVC\razor\Razor\bin\System.Web.Razor.dll
+F:\Development\Изучаю ASP .Net MVC\razor\Razor\bin\System.Web.WebPages.Deployment.dll
+F:\Development\Изучаю ASP .Net MVC\razor\Razor\bin\System.Web.WebPages.dll
+F:\Development\Изучаю ASP .Net MVC\razor\Razor\bin\System.Web.WebPages.Razor.dll
+F:\Development\Изучаю ASP .Net MVC\razor\Razor\bin\WebActivatorEx.dll
+F:\Development\Изучаю ASP .Net MVC\razor\Razor\bin\EntityFramework.xml
+F:\Development\Изучаю ASP .Net MVC\razor\Razor\bin\EntityFramework.SqlServer.xml
+F:\Development\Изучаю ASP .Net MVC\razor\Razor\bin\Newtonsoft.Json.xml
+F:\Development\Изучаю ASP .Net MVC\razor\Razor\bin\Ninject.xml
+F:\Development\Изучаю ASP .Net MVC\razor\Razor\bin\Ninject.Web.Common.xml
+F:\Development\Изучаю ASP .Net MVC\razor\Razor\bin\System.Net.Http.Extensions.xml
+F:\Development\Изучаю ASP .Net MVC\razor\Razor\bin\System.Net.Http.Formatting.xml
+F:\Development\Изучаю ASP .Net MVC\razor\Razor\bin\System.Net.Http.Primitives.xml
+F:\Development\Изучаю ASP .Net MVC\razor\Razor\bin\System.Web.Helpers.xml
+F:\Development\Изучаю ASP .Net MVC\razor\Razor\bin\System.Web.Http.xml
+F:\Development\Изучаю ASP .Net MVC\razor\Razor\bin\System.Web.Http.WebHost.xml
+F:\Development\Изучаю ASP .Net MVC\razor\Razor\bin\System.Web.Mvc.xml
+F:\Development\Изучаю ASP .Net MVC\razor\Razor\bin\System.Web.Razor.xml
+F:\Development\Изучаю ASP .Net MVC\razor\Razor\bin\System.Web.WebPages.xml
+F:\Development\Изучаю ASP .Net MVC\razor\Razor\bin\System.Web.WebPages.Deployment.xml
+F:\Development\Изучаю ASP .Net MVC\razor\Razor\bin\System.Web.WebPages.Razor.xml
+F:\Development\Изучаю ASP .Net MVC\razor\Razor\obj\Debug\Razor.dll
+F:\Development\Изучаю ASP .Net MVC\razor\Razor\bin\Microsoft.Web.Infrastructure.dll

@@ -1,4 +1,5 @@
 # Compiled Object files
+syntax: glob
 *.obj
 
 # Compiled Dynamic libraries
@@ -10,3 +11,9 @@
 *.exe
 
 *.suo
+
+
+*/obj/*
+*/bin/*
+*/packages/*
+packages/*

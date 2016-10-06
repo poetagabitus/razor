@@ -8,13 +8,13 @@ namespace Razor.Controllers
 {
     public class CartController : Controller
     {
-        private readonly IProductRepository repository;
-        private readonly IOrderProcessor orderProcessor;
+        private readonly IProductRepository _repository;
+        private readonly IOrderProcessor _orderProcessor;
 
         public CartController(IProductRepository repo, IOrderProcessor orderProcessor)
         {
-            repository = repo;
-            this.orderProcessor = orderProcessor;
+            _repository = repo;
+            _orderProcessor = orderProcessor;
         }
 
         [HttpGet]
@@ -30,7 +30,7 @@ namespace Razor.Controllers
         [HttpPost]
         public RedirectToRouteResult AddToCart(Cart cart, int productId, string returnUrl)
         {
-            var product = repository.Products.SingleOrDefault(p => p.ProductId == productId);
+            var product = _repository.Products.SingleOrDefault(p => p.ProductID == productId);
 
             if (product != null)
                 cart.AddItem(product, 1);
@@ -41,7 +41,7 @@ namespace Razor.Controllers
         [HttpPost]
         public RedirectToRouteResult RemoveFromCart(Cart cart, int productId, string returnUrl)
         {
-            var product = repository.Products.SingleOrDefault(p => p.ProductId == productId);
+            var product = _repository.Products.SingleOrDefault(p => p.ProductID == productId);
 
             if (product != null)
                 cart.RemoveLine(product);
@@ -70,7 +70,7 @@ namespace Razor.Controllers
             if (ModelState.IsValid == false) 
                 return View(shippingDetails);
 
-            orderProcessor.ProcessOrder(cart, shippingDetails);
+            _orderProcessor.ProcessOrder(cart, shippingDetails);
             cart.Clear();
 
             return View("Completed");
